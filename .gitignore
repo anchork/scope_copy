@@ -1,0 +1,52 @@
+# Godot-specific ignores
+.godot/
+export/
+addons/ziva_agent
+
+# Build artifacts
+*.exe
+*.so
+*.dylib
+*.dll
+*.o
+*.a
+*.lib
+
+# Godot export and packs
+*.pck
+*.zip
+
+# Mono/.NET builds (if using C# in Godot)
+mono_crash.*.json
+[Bb]in/
+[Oo]bj/
+*.csproj
+*.sln
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# User-specific Godot settings
+user://
+local_settings.cfg
